@@ -1,0 +1,130 @@
+.hvr-icon-forward:before {
+    content: "\f138";
+    position: absolute;
+    right: 1em;
+    padding: 0 1px;
+    font-family: FontAwesome;
+    transform: translateZ(0);
+    transition-duration: 0.1s;
+    transition-property: transform;
+    transition-timing-function: ease-out;
+}
+body{
+
+background-image: url("resources/images/bg.png");
+	no-repeat fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+@font-face {
+  font-family: 'Brandon';
+  src: url('resources/fonts/brandon-grotesque-regular.woff') format("woff");
+  }
+
+html{
+	font-family:Brandon;
+}
+
+
+#submitbutton {
+    width: 5em;  height: 5em;
+    margin-right: 0px;
+    line-height: 40px;
+}
+
+table
+{
+    table-layout: fixed;
+    width: 100px;
+}
+
+#del{
+font-weight: bold;
+
+}
+#mod{
+font-weight: bold;
+
+}
+.button-success {
+            background: rgb(223, 117, 20);
+            color: #fff;
+        }
+.textbox { 
+     background: #1A1A1A; 
+    height:25px; 
+    width: 275px; 
+    border-radius: 2em; 
+    border: none; 
+    color: #A2A2A2; 
+    padding-left: 1.5em; 
+    outline: none; 
+    box-shadow: 0 4px 6px -5px hsl(0, 0%, 40%), inset 0px 4px 6px -5px hsl(0, 0%, 2%) 
+} 
+
+.d1
+{
+	color:#fff;
+}
+
+a {
+  position: relative;
+  color: #fff;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #fff;
+}
+
+a:before {
+  content: "";
+  position: absolute;
+  width: 100%;
+  height: 2px;
+  bottom: 0;
+  left: 0;
+  background-color: #fff;
+  visibility: hidden;
+  -webkit-transform: scaleX(0);
+  transform: scaleX(0);
+  -webkit-transition: all 0.3s ease-in-out 0s;
+  transition: all 0.3s ease-in-out 0s;
+}
+
+a:hover:before {
+  visibility: visible;
+  -webkit-transform: scaleX(1);
+  transform: scaleX(1);
+}
+
+.ontop{
+    color:#fff;
+    font-size: 120%;
+     position:absolute;
+   top:5px;
+   right:25px;
+  }
+  
+  .ontopmenu{
+    
+    color:#fff;
+    font-size: 120%;
+     position:absolute;
+   	top:8px;
+   right:200px;
+  }
+  
+  ul {
+    list-style-type: none;
+    top:5px;
+    margin: 0;
+    padding: 0;
+}
+
+li {
+    display: inline;
+}
